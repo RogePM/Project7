@@ -1,0 +1,56 @@
+
+For 1,000
+ArrayList random add() time: 0.5138 mili seconds  - faster
+LinkedList random add() time: 1.3515 mili seconds
+ArrayList get() time: 0.2246 mili seconds     -faster
+LinkedList get() time: 1.1092 mili seconds
+ArrayList sort() time: 1.4055 mili seconds  - around same
+LinkedList sort() time: 1.4072 mili seconds
+ArrayList shuffle() time: 0.0461 mili seconds  -much faster
+LinkedList shuffle() time: 2.1278 mili seconds
+
+ For 5,000
+ArrayList random add() time: 3.8778 mili seconds   -faster
+LinkedList random add() time: 23.5749 mili seconds
+ArrayList get() time: 0.3549 mili seconds -faster   
+LinkedList get() time: 33.511 mili seconds
+ArrayList sort() time: 4.636 mili seconds
+LinkedList sort() time: 2.8737 mili seconds  -faster
+ArrayList shuffle() time: 0.099 mili seconds   -faster
+LinkedList shuffle() time: 24.5204 mili seconds
+
+For 10,000
+ArrayList random add() time: 10.477 mili seconds  -faster
+LinkedList random add() time: 82.8631 mili seconds
+ArrayList get() time: 0.4459 mili seconds -faster
+LinkedList get() time: 106.099 mili seconds
+ArrayList sort() time: 6.8058 mili seconds
+LinkedList sort() time: 5.69 mili seconds -faster slightly
+ArrayList shuffle() time: 0.1363 mili seconds  -faster
+LinkedList shuffle() time: 151.8444 mili seconds
+
+For 20,000
+ArrayList random add() time: 46.7518 mili seconds -faster
+LinkedList random add() time: 540.8447 mili seconds
+ArrayList get() time: 0.5885 mili seconds -faster
+LinkedList get() time: 570.4706 mili seconds
+ArrayList sort() time: 10.0218 mili seconds
+LinkedList sort() time: 9.2694 mili seconds -faster slightly
+ArrayList shuffle() time: 0.1022 mili seconds -faster
+LinkedList shuffle() time: 543.8404 mili seconds
+
+for 100,000
+ArrayList random add() time: 936.4824 mili seconds -faster
+LinkedList random add() time: 13782.477 mili seconds
+ArrayList get() time: 0.4097 mili seconds  -faster
+LinkedList get() time: 14577.265 mili seconds
+ArrayList sort() time: 32.1705 mili seconds -faster
+LinkedList sort() time: 41.1936 mili seconds
+ArrayList shuffle() time: 2.6286 mili seconds -faster
+LinkedList shuffle() time: 13667.4408 mili seconds
+
+    Based on the results provided, it appears that the ArrayList implementation 
+    is better than the LinkedList implementation for random add() and get() operations, 
+    as well as for shuffle() operations, in all cases. although LinkedList are better in low data sets in sorting operations, 
+    ArrayList becomes better for larger data sets 
+
